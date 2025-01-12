@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stark Tech Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="movieStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="website icon" href="/assets/logo/icon.png">
+    <link rel="icon" href="https://images.wallpapersden.com/image/download/marvel-iron-man-art_68122_2160x3840.jpg" type="image/png">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <style>
+        /* Circle styles */
+        .circle {
+            height: 24px;
+            width: 24px;
+            border-radius: 24px;
+            background-color: black;
+            position: fixed;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            z-index: 99999999;
+            /* Stays on top of all elements */
+        }
+        .progress-bar{
+          position: fixed;
+          width:100%;
+          height: 0.4vh;
+          z-index: 1200;  
+        }
+.filled{
+     width :0%;
+     height: 100%;
+     background-image: linear-gradient(to right,red,orange);
+     z-index: 100;
+}
+    </style>
+</head>
+<body>
+    <div class="progress-bar">
+        <div class="filled"></div>
+     </div>
+    <!-- Circles -->
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+<nav class="navbar h-nav background">
+    <ul class="nav-list visibility">
+        <div class="logo" id="ironmask"><a href="index.html"><img src="assets\logo\icon.png" alt="logo" srcset=""></a></div>
+        <li> <a href="index.html">TEAM</a></li>
+    
+        <li> <a href="index.html#Comics" class="active-header">technology</a></li>
+        <li> <a href="quiz.html" class="active-header">Project Synopsis</a></li>
+       
+    </ul>
+
+    <div class="rightNav visibility">
+        <form class="search-bar">
+        <input type="text" name="search"  placeholder="Search the website">
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </div>
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</nav>
+
+<!-- Main Section -->
+<section class="movies-section background1" id="home">
+    <div class="box-main">
+        <div class="firstHalf DoAnimation">
+            <h1 class="movies-heading">
+                <img src="assets/Screenshot 2025-01-12 232155.png" alt="Iron Man" class="ironman-image">
+            </h1>
+            <br> </br>
+            <h2>
+                The technology used for the project
+            </h2>
+            <br>
+            <br>
+        </div>
+    </div>
+
+<!-- Movie Cards Section -->
+<div class="movie-cards-container">
+    <!-- Card 1 -->
+    <div class="movie-card" data-aos="fade-right">
+        <a href="https://leagueofcomicgeeks.com/comics/series/160735/the-invincible-iron-man" target="_blank" class="movie-link">
+            <img src="assets/SpringBoot.png" alt="Iron Man" class="movie-image">
+            <h2 class="movie-title">SpringBoot<span class="imdd-rating"><br></span></h2>
+        </a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="movie-card" data-aos="zoom-in">
+
+            <img src="assets/spring_securit.png" alt="Iron Man" class="movie-image">
+            <h2 class="movie-title">SPRING SECURITY<span class="imdd-rating"><br></span></h2>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="movie-card" data-aos="fade-left">
+            <img src="https://shorturl.at/BFwif" alt="Iron Man" class="movie-image">
+            <h2 class="movie-title">Thymeleaf<span class="imdd-rating"><br> </span></h2>
+    
+    </div>
+
+    <!-- Card 4 -->
+    <div class="movie-card" data-aos="fade-right">
+            <img src="https://shorturl.at/EkPpl" alt="Iron Man 3" class="movie-image">
+            <h2 class="movie-title">MONGODB<span class="imdd-rating"><br>.</span></h2>
+        </a>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="movie-card"data-aos="zoom-in">
+            <img src="assets/api.webp" alt="Avengers Age of Ultron" class="movie-image">
+            <h2 class="movie-title">API<span class="imdd-rating"><br>
+            </span></h2>
+       
+    </div>
+
+    <!-- Card 6 -->
+    <div class="movie-card" data-aos="fade-left">
+        
+            <img src="assets/cloude.jpeg" alt="Captain America Civil War" class="movie-image">
+            <h2 class="movie-title">AWS<span class="imdd-rating"><br></h2>
+    </div>
+    <!-- Card 7 -->
+    <div class="movie-card" data-aos="fade-right">
+            <img src="assets/github.jpg" alt="Spider Man Homecoming" class="movie-image">
+            <h2 class="movie-title">GITHUB<span class="imdd-rating"><br>
+    </div>
+    <!-- Card 8 -->
+    <div class="movie-card" data-aos="zoom-in">
+        
+            <img src="assets/Postman-featured.png" alt="Avengers Infinity War" class="movie-image">
+            <h2 class="movie-title">POSTMAN<span class="imdd-rating"><br>.</span></h2>
+        
+    </div>
+    <!-- Card 9 -->
+    <div class="movie-card" data-aos="fade-left">
+       
+            <img src="assets/Docker.avif" alt="Avengers Endgame" class="movie-image">
+            <h2 class="movie-title">DOCKER</span></h2>
+        
+    </div>
+    <!-- Card 10 -->
+    <div class="movie-card" data-aos="zoom-in">
+       
+            <img src="assets/java.webp" alt="Spider Man Far From Home" class="movie-image">
+            <h2 class="movie-title">JAVA<br><span class="imdd-rating"><br>
+    </div>
+</div>
+
+
+<footer>
+    <div class="footer background">
+        <div class="footer-col">
+            <img src="./assets/logo//icon.png" id="ironlogo"    alt="">
+            <p class="footer-p">
+
+               
+            </p>
+            
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div> 
+        </div>
+        <div class="footer-col-main">
+            
+           
+        </div>
+        <div class="footer-col-main">
+          
+        </div>
+        <div class="footer-col-main">
+
+        </div>
+    </div>
+    <div class="footer-bar background"> 
+        <p>
+            &copy; Copyright 2024- All Rights Reserved -Made With ❤️ by <span>Amit</span> Tad</a>
+        </p>
+
+    </div>
+   </footer>
+   <button id="BacktoTop">
+    <div class="circle1">
+      <svg
+        id="back-to-top"
+        xmlns="http://www.w3.org/2000/svg"
+        width="30"
+        height="30"
+        fill="currentColor"
+        class="bi bi-arrow-up-circle-fill"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"
+        ></path>
+      </svg>
+    </div>
+  </button>
+
+  <script>
+    /* Back to Top Button */
+    const scrollToTopBtn = document.getElementById("BacktoTop");
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 50 ||
+        document.documentElement.scrollTop > 50
+      ) {
+        scrollToTopBtn.style.visibility = "visible";
+        scrollToTopBtn.style.opacity = "1";
+      } else {
+        scrollToTopBtn.style.visibility = "hidden";
+        scrollToTopBtn.style.opacity = "0";
+      }
+    }
+
+    scrollToTopBtn.addEventListener("click", function () {
+      // Smooth scroll back to top
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+<script>
+    // Coordinates for the cursor
+    const coords = { x: 0, y: 0 };
+    const circles = document.querySelectorAll(".circle");
+
+    // Colors for the circles
+    const colors = [
+        "#ffb56b", "#fdaf69", "#f89d63", "#f59761", "#ef865e", "#ec805d",
+        "#e36e5c", "#df685c", "#d5585c", "#d1525c", "#c5415d", "#c03b5d",
+        "#b22c5e", "#ac265e", "#9c155f", "#950f5f", "#830060", "#7c0060",
+        "#680060", "#60005f", "#48005f", "#3d005e"
+    ];
+
+    // Assign colors and initial position to each circle
+    circles.forEach(function (circle, index) {
+        circle.x = 0;
+        circle.y = 0;
+        circle.style.backgroundColor = colors[index % colors.length];
+    });
+
+    // Update the coordinates when the mouse moves
+    window.addEventListener("mousemove", function (e) {
+        coords.x = e.clientX;
+        coords.y = e.clientY;
+    });
+
+    // Animation function to move the circles
+    function animateCircles() {
+        let x = coords.x;
+        let y = coords.y;
+
+        circles.forEach(function (circle, index) {
+            // Update the position and scale of each circle
+            circle.style.left = x - 12 + "px";
+            circle.style.top = y - 12 + "px";
+            circle.style.scale = (circles.length - index) / circles.length;
+
+            circle.x = x;
+            circle.y = y;
+
+            // Get the next circle in the sequence
+            const nextCircle = circles[index + 1] || circles[0];
+            x += (nextCircle.x - x) * 0.3;
+            y += (nextCircle.y - y) * 0.3;
+        });
+
+        // Repeat the animation
+        requestAnimationFrame(animateCircles);
+    }
+
+    // Start the animation
+    animateCircles();
+</script>
+<script src="./Js/script.js"></script>
+<script src="./Js/secrets.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init(
+    {
+        duration:3000
+       
+    }
+  );
+
+   //js 
+
+const filled = document.querySelector('.filled');
+
+function update () {
+    filled.style.width = `${((window.scrollY) / (document.body.scrollHeight - window.innerHeight) * 100)}%`;
+requestAnimationFrame(update);
+}
+update();
+</script>
+
+</body>
+</html>
